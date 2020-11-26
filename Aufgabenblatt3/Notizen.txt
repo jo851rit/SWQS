@@ -1,0 +1,2 @@
+tests ausführen mit: mvn tests
+javadoc erzeugen mit: mvn javadoc:javadoc

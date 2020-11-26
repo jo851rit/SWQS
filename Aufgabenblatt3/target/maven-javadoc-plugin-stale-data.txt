@@ -1,0 +1,23 @@
+cmd.exe
+/X
+/C
+""C:\Program Files\Java\jdk1.8.0_241\jre\..\bin\javadoc.exe" @options @argfile"
+C:\Users\johan\Studium\7. Semester\Software-Qualitätssicherung\GitHub\SWQS\Aufgabenblatt3\target\site\apidocs\allclasses-frame.html = 1606395247413
+C:\Users\johan\Studium\7. Semester\Software-Qualitätssicherung\GitHub\SWQS\Aufgabenblatt3\target\site\apidocs\allclasses-noframe.html = 1606395247413
+C:\Users\johan\Studium\7. Semester\Software-Qualitätssicherung\GitHub\SWQS\Aufgabenblatt3\target\site\apidocs\argfile = 1606395246813
+C:\Users\johan\Studium\7. Semester\Software-Qualitätssicherung\GitHub\SWQS\Aufgabenblatt3\target\site\apidocs\Calculator.html = 1606395247370
+C:\Users\johan\Studium\7. Semester\Software-Qualitätssicherung\GitHub\SWQS\Aufgabenblatt3\target\site\apidocs\constant-values.html = 1606395247393
+C:\Users\johan\Studium\7. Semester\Software-Qualitätssicherung\GitHub\SWQS\Aufgabenblatt3\target\site\apidocs\deprecated-list.html = 1606395247413
+C:\Users\johan\Studium\7. Semester\Software-Qualitätssicherung\GitHub\SWQS\Aufgabenblatt3\target\site\apidocs\help-doc.html = 1606395247413
+C:\Users\johan\Studium\7. Semester\Software-Qualitätssicherung\GitHub\SWQS\Aufgabenblatt3\target\site\apidocs\ICalculator.html = 1606395247373
+C:\Users\johan\Studium\7. Semester\Software-Qualitätssicherung\GitHub\SWQS\Aufgabenblatt3\target\site\apidocs\index-all.html = 1606395247403
+C:\Users\johan\Studium\7. Semester\Software-Qualitätssicherung\GitHub\SWQS\Aufgabenblatt3\target\site\apidocs\index.html = 1606395247413
+C:\Users\johan\Studium\7. Semester\Software-Qualitätssicherung\GitHub\SWQS\Aufgabenblatt3\target\site\apidocs\options = 1606395246812
+C:\Users\johan\Studium\7. Semester\Software-Qualitätssicherung\GitHub\SWQS\Aufgabenblatt3\target\site\apidocs\overview-tree.html = 1606395247403
+C:\Users\johan\Studium\7. Semester\Software-Qualitätssicherung\GitHub\SWQS\Aufgabenblatt3\target\site\apidocs\package-frame.html = 1606395247380
+C:\Users\johan\Studium\7. Semester\Software-Qualitätssicherung\GitHub\SWQS\Aufgabenblatt3\target\site\apidocs\package-list = 1606395247373
+C:\Users\johan\Studium\7. Semester\Software-Qualitätssicherung\GitHub\SWQS\Aufgabenblatt3\target\site\apidocs\package-summary.html = 1606395247383
+C:\Users\johan\Studium\7. Semester\Software-Qualitätssicherung\GitHub\SWQS\Aufgabenblatt3\target\site\apidocs\package-tree.html = 1606395247383
+C:\Users\johan\Studium\7. Semester\Software-Qualitätssicherung\GitHub\SWQS\Aufgabenblatt3\target\site\apidocs\package-use.html = 1606395247403
+C:\Users\johan\Studium\7. Semester\Software-Qualitätssicherung\GitHub\SWQS\Aufgabenblatt3\target\site\apidocs\script.js = 1606395247421
+C:\Users\johan\Studium\7. Semester\Software-Qualitätssicherung\GitHub\SWQS\Aufgabenblatt3\target\site\apidocs\stylesheet.css = 1606395247421
