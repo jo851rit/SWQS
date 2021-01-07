@@ -1,2 +1,3 @@
-tests ausführen mit: mvn tests
+tests ausführen mit: mvn test
 javadoc erzeugen mit: mvn javadoc:javadoc
+mvn clean install
