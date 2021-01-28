@@ -1,31 +1,27 @@
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
-import static org.mockito.Mockito.spy;
+import org.junit.Test;
+import org.junit.Before;
 import static org.mockito.Mockito.*;
-class TestSpy {
 
+public class TestSpy {
+    VendingMachineImpl vendingMachine;
+    FullBox fullBox;
+    FullBox fullBox2;
+    UnlimitedCashBox unlimitedCashBox;
 
-    Box box;
-    CashBox cashBox;
-    VendingMachine vendingMachine;
-
-    @BeforeEach
-    void setUp() {
-        box = spy(Box.class);
-        cashBox = spy(CashBox.class);
-        vendingMachine = new VendingMachineImpl(cashBox, new Box[] {box});
+    @Before
+    public void setUp() {
+        fullBox = spy(new FullBox());
+        fullBox2 = spy(new FullBox());
+        unlimitedCashBox = spy(new UnlimitedCashBox());
+        vendingMachine = new VendingMachineImpl(unlimitedCashBox, new Box[]{fullBox, fullBox2});
     }
 
     @Test
-    public void test() throws BoxEmptyException, NotEnoughMoneyException{
-      when(box.isEmpty()).thenReturn(false);
-      when(box.getPrice()).thenReturn(1);
-      when(cashBox.getCurrentAmount()).thenReturn(2);
-      vendingMachine.selectItem(0);
+    public void testSelectItem() throws BoxEmptyException, NotEnoughMoneyException {
 
-      verify(box, times(1)).releaseItem();
-      verify(cashBox, times(1)).withdraw(1);
+        vendingMachine.selectItem(1);
+        verify(fullBox2).releaseItem();
+        verify(unlimitedCashBox).withdraw(42);
+
     }
 }
